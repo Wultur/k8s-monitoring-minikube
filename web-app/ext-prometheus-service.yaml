@@ -1,0 +1,7 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: prometheus-service
+spec:
+  type: ExternalName
+  externalName: prometheus-kube-prometheus-prometheus.monitoring.svc.cluster.local
